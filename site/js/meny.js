@@ -12,10 +12,12 @@ function interactMenu(){
 
         }
     );
-    //$( "#menu_general" ).hide();
 }
 
 $().ready(function(){
+    interactMenu()
+    $("#fooddiv").css("opacity", "1");
+    $("#food").css("opacity", "1");
     $("#flärps li").click( interactMenu);
     $("#flärps li").tap( interactMenu);
 });

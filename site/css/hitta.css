@@ -1,7 +1,7 @@
 div#navigation {
     width: 200px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(10, 27, 121, 0.5);;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -16,7 +16,12 @@ div#navigation {
     color: #fff;
     line-height: 100px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 39, 219, 0.3);
     margin-left: 17%;
     margin-top: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
