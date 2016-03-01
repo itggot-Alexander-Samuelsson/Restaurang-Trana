@@ -1,12 +1,15 @@
+<<<<<<< HEAD
 
 body {
     background: skyblue;
 }
 body {
     background-color: skyblue;
+=======
+body {
+    background: skyblue;
+>>>>>>> origin/master
 }
-
-
 
 a{
     color: white;
@@ -81,7 +84,7 @@ div#title{
     width: 266px;
     height: 200px;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 40px;
     color: #fff;
     line-height: 200px;
     text-align: center;
@@ -112,4 +115,5 @@ img.center{
 
 h1.center{
     text-align: center;
+    font-size: 60px;
 }
