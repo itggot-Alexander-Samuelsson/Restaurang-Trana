@@ -12,6 +12,34 @@ body {
     background-color: skyblue;
 }
 
+div#map{
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+
+div#description{
+
+    width: 500px;
+    height: 400px;
+    background-color: darkgray;
+    margin-left: 45%;
+
+}
+
+div#panorama_container{
+    margin-top: 3%;
+    margin-left: 10.1%;
+    height: 214px;
+    width: 1024px;
+}
+
+
+p{
+    margin-left: 5%;
+    margin-right: 1%;
+    font-size: 30px;
+}
 
 
 .bubbl {

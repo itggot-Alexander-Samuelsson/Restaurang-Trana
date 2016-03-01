@@ -7,6 +7,18 @@
 </head>
 <body>
 
+<div id="map">
+
+</div>
+
+<div id="description">
+    <p>Vi ligger vid foten av hornborgasjön  bla bla bla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eos excepturi minus nihil pariatur. Asperiores eaque esse excepturi fugit hic iusto neque optio placeat, qui quidem reprehenderit, temporibus veritatis voluptatum.</p>
+</div>
+
+<div id="panorama_container">
+    <img src="../images/panorama.jpg" alt="">
+</div>
+
 <div id="navigation">
     <div class="bubbl" id="meny">
         <a href="meny.html">Meny</a>
@@ -24,5 +36,17 @@
     </div>
     <div class="bubbl" id="Hem"><a href="index.html">Hem</a></div>
 </div>
+
+<script>
+    function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 58.321, lng: 13.553},
+            zoom: 11
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
 </body>
 </html>
