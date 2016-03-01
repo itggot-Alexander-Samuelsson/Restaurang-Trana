@@ -25,3 +25,21 @@ a{
     color: white;
     text-decoration: none;
 }
+
+body {
+    background-image: url("../images/bord.jpg");
+    background-size: 100%;
+}
+
+div#blueprint {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+div#bokad {
+    width: 200px;
+    heigth: 300px;
+    background-color: #ffffff;
+}
+
