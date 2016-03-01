@@ -1,7 +1,8 @@
-body {
-    background-image: url("../images/sky.jpg");
-    background-size: 100%;
+body{
+    background: skyblue;
 }
+
+
 
 a{
     color: white;
@@ -72,4 +73,39 @@ div#title{
     left: 350px;
 }
 
+.bubbl {
+    width: 266px;
+    height: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    background-color: rgba(0, 39, 219, 0.3);
+    margin-top: 25px;
+}
 
+div#navigation{
+    width: 267px;
+    height: 201px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div#logo_mobil{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1.center{
+    text-align: center;
+}
