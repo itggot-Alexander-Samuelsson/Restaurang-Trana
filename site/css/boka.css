@@ -27,8 +27,7 @@ a{
 }
 
 body {
-    background-image: url("../images/bord.jpg");
-    background-size: 100%;
+    background-color: skyblue;
 }
 
 div#blueprint {
@@ -38,8 +37,23 @@ div#blueprint {
 }
 
 div#bokad {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 200px;
-    heigth: 300px;
-    background-color: #ffffff;
+    height: 300px;
+    background-color: rgba(192, 64, 0, 0.8);
+
 }
 
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    color: white;
+}
