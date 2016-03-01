@@ -28,17 +28,6 @@ div#menu_container{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-div#nav{
-    width: 100px;
-    height: 100%;
-    border: 3px solid black;
-}
-
-
-
-
-
-
 
 div#menu{
     position: absolute;
