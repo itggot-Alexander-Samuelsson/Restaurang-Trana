@@ -8,6 +8,12 @@ div#navigation {
 
 }
 
+body {
+    background-color: skyblue;
+}
+
+
+
 .bubbl {
     width: 133px;
     height: 100px;

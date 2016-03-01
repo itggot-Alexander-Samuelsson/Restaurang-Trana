@@ -10,13 +10,11 @@ div#info {
 }
 
 body#info2 {
-    background-image: url("../images/sandhillcrane.jpg");
-    background-size: 100%;
+    background-color: skyblue;
 }
 
 body#info3 {
-    background-image: url("../images/tranfagel.jpg");
-    background-size: 100%;
+    background-color: skyblue;
 }
 
 div#navigation {

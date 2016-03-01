@@ -27,8 +27,7 @@ a{
 }
 
 body {
-    background-image: url("../images/bord.jpg");
-    background-size: 100%;
+    background-color: skyblue;
 }
 
 div#blueprint {
