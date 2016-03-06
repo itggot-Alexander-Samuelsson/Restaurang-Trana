@@ -3,10 +3,11 @@ div#info {
     height: 500px;
     background-color: rgba(0, 0, 0, 0.3);
     margin-top: 72px;
-    margin-left: 25%;
+    margin-left: 10%;
     border-radius: 20px;
     padding: 5px 20px 15px 20px;
     color: #ffffff;
+    float: left;
 }
 
 body#info2 {
@@ -27,6 +28,11 @@ div#navigation {
 
 }
 
+div#infopic_container{
+
+
+}
+
 .bubbl {
     width: 133px;
     height: 100px;
@@ -42,4 +48,11 @@ div#navigation {
 a{
     color: white;
     text-decoration: none;
+}
+img{
+    width: 400px;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: 15%;
+
 }
