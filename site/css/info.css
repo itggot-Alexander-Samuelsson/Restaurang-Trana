@@ -11,11 +11,11 @@ div#info {
 }
 
 body#info2 {
-    background-color: skyblue;
+    background-color: #0678be;
 }
 
 body#info3 {
-    background-color: skyblue;
+    background-color: #0678be;
 }
 
 div#navigation {
@@ -41,7 +41,7 @@ div#infopic_container{
     color: #fff;
     line-height: 100px;
     text-align: center;
-    background-color: rgba(0, 39, 219, 0.3);
+    background-color: #064771;
     margin-left: 17%;
     margin-top: 25px;
 }
