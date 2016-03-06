@@ -3,8 +3,8 @@ div#navigation {
     height: 100%;
     background-color: rgba(10, 27, 121, 0.5);;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0%;
+    right: 0%;
 
 }
 
@@ -16,7 +16,9 @@ div#map{
     margin-left: 20px;
     width: 500px;
     height: 400px;
-    float: left;
+    position: absolute;
+    top: 4%;
+    left: 2.5%;
 }
 
 div#description{
@@ -24,15 +26,18 @@ div#description{
     width: 500px;
     height: 400px;
     background-color: darkgray;
-    margin-left: 38%;
+    position: absolute;
+    top: 4%;
+    left:40%;
 
 }
 
 div#panorama_container{
-    margin-top: 3%;
-    margin-left: 1.3%;
     height: 214px;
     width: 1024px;
+    position: absolute;
+    top: 65%;
+    left: 3.7%;
 }
 
 
